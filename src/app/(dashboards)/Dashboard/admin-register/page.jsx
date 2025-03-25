@@ -137,7 +137,9 @@ const AdminRegister = () => {
             required
             options={[
               { label: currentLanguage === "en" ? "Contents" : "বিষয়বস্তু", value: "content" },
-              { label: currentLanguage === "en" ? "Grievances" : "অভিযোগ", value: "userGrievance" },
+              { label: currentLanguage === "en" ? "product" : "product", value: "product" },
+
+              // { label: currentLanguage === "en" ? "Grievances" : "অভিযোগ", value: "userGrievance" },
               { label: currentLanguage === "en" ? "Dashboard" : "ড্যাশবোর্ড", value: "dashboard" },
               { label: currentLanguage === "en" ? "Users" : "ব্যবহারকারীরা", value: "user" },
               { label: currentLanguage === "en" ? "Admins" : "অ্যাডমিন", value: "admins" },

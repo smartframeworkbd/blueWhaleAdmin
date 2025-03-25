@@ -101,7 +101,7 @@ const Dashboard = ({ view, toggle }) => {
       labels: { en: "Dashboard", bn: "ড্যাশবোর্ড" },
     },
     {
-      id: "Product",
+      id: "product",
       path: "",
       icon: <HiReceiptTax className="h-5 w-5 text-white" />,
       labels: { en: "Product ", bn: "Product" },
@@ -123,7 +123,7 @@ const Dashboard = ({ view, toggle }) => {
     },
 
     {
-      id: "Product Category",
+      id: "category",
       path: "",
       icon: <HiReceiptTax className="h-5 w-5 text-white" />,
       labels: { en: "Product Category", bn: "Product Category" },
