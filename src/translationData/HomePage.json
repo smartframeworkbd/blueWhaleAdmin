@@ -1,0 +1,429 @@
+{
+  "LoginLabels": {
+    "userLogins": {
+      "tabTitle": {
+        "en": "Complainant Login",
+        "bn": "অভিযোগকারী লগইন"
+      }
+    },
+    "PhoneNumber": {
+      "tabTitle": {
+        "en": "Phone Number",
+        "bn": "ফোন নম্বর"
+      }
+    },
+    "infoLogin": {
+      "tabTitle": {
+        "en": "To submit a grievance, login using your mobile number and the pin number sent to your mobile",
+        "bn": "একটি অভিযোগ জমা দিতে, আপনার মোবাইল নম্বর এবং আপনার মোবাইলে পাঠানো পিন নম্বর ব্যবহার করে লগইন করুন"
+      }
+    },
+    "LogInHere": {
+      "tabTitle": {
+        "en": "Log in here",
+        "bn": "এখানে লগইন করুন"
+      }
+    },
+    "RecoverPasscode": {
+      "tabTitle": {
+        "en": "Recover Passcode",
+        "bn": "নতুন পাসকোড সেট করুন"
+      }
+    },
+    "Recovertext": {
+      "tabTitle": {
+        "en": "A code will be sent to your phone number to set a new password",
+        "bn": "নতুন পাসওয়ার্ড সেট করার জন্য আপনার ফোন নাম্বারে একটি কোড পাঠানো হবে"
+      }
+    },
+    "RememberedyourPasscode": {
+      "tabTitle": {
+        "en": "Remembered your passcode?",
+        "bn": "আপনার পাসকোড মনে আছে?"
+      }
+    },
+    "enterPhoneNumber": {
+      "tabTitle": {
+        "en": "Enter your phone number...",
+        "bn": "আপনার ফোন নম্বর লিখুন..."
+      }
+    },
+    "SendPasscode": {
+      "tabTitle": {
+        "en": "Send Passcode",
+        "bn": "পাসকোড পাঠান"
+      }
+    },
+    "Passscode": {
+      "tabTitle": {
+        "en": "Code",
+        "bn": "কোড"
+      }
+    },
+    "enterPassscode": {
+      "tabTitle": {
+        "en": "Enter your code...",
+        "bn": "আপনার কোড লিখুন..."
+      }
+    },
+    "forgotPasscode": {
+      "tabTitle": {
+        "en": "Forgot passcode?",
+        "bn": "পাসকোড ভুলে গেছেন?"
+      }
+    },
+    "noAccount": {
+      "tabTitle": {
+        "en": "No account?",
+        "bn": "কোনো অ্যাকাউন্ট নেই?"
+      }
+    },
+    "loginButton": {
+      "tabTitle": {
+        "en": "Login",
+        "bn": "লগইন"
+      }
+    },
+    "registerNoew": {
+      "tabTitle": {
+        "en": "Register Now",
+        "bn": "এখন নিবন্ধন করুন"
+      }
+    }
+  },
+
+  "RegisterLabels": {
+    "userRegister": {
+      "tabTitle": {
+        "en": "Complainant's info",
+        "bn": "অভিযোগকারীর তথ্য"
+      }
+    },
+    "enterPhoneNumber": {
+      "tabTitle": {
+        "en": "Enter your phone number...",
+        "bn": "আপনার ফোন নম্বর লিখুন..."
+      }
+    },
+    "registerBirth": {
+      "tabTitle": {
+        "en": "Date of Birth",
+        "bn": "জন্ম তারিখ"
+      }
+    },
+    "userName": {
+      "tabTitle": {
+        "en": "Name:*",
+        "bn": "আপনার নাম:*"
+      }
+    },
+    "regemail": {
+      "tabTitle": {
+        "en": "Email",
+        "bn": "ইমেইল"
+      }
+    },
+    "phone": {
+      "tabTitle": {
+        "en": "Phone:",
+        "bn": "ফোন:*"
+      }
+    },
+    "regGender": {
+      "tabTitle": {
+        "en": "Gender",
+        "bn": "লিঙ্গ"
+      }
+    },
+    "enterGender": {
+      "tabTitle": {
+        "en": "Enter your Country",
+        "bn": "আপনার দেশ বাছাই করুন"
+      }
+    },
+    "regprofession": {
+      "tabTitle": {
+        "en": "Profession",
+        "bn": "পেশা"
+      }
+    },
+    "educationQualification": {
+      "tabTitle": {
+        "en": "Education Qualification",
+        "bn": "শিক্ষাগত যোগ্যতা"
+      }
+    },
+    "regCountry": {
+      "tabTitle": {
+        "en": "Country",
+        "bn": "দেশ"
+      }
+    },
+    "regNationality": {
+      "tabTitle": {
+        "en": "Nationality",
+        "bn": "জাতীয়তা"
+      }
+    },
+    "enterNationality": {
+      "tabTitle": {
+        "en": "Enter your Nationality",
+        "bn": "আপনার জাতীয়তা লিখুন"
+      }
+    },
+    "enterAddress": {
+      "tabTitle": {
+        "en": "Enter your Address",
+        "bn": "আপনার ঠিকানা লিখুন"
+      }
+    },
+    "regAddress": {
+      "tabTitle": {
+        "en": "Address",
+        "bn": "ঠিকানা"
+      }
+    },
+    "enterEducationQualification": {
+      "tabTitle": {
+        "en": "Enter your Education Qualification",
+        "bn": "আপনার শিক্ষাগত যোগ্যতা লিখুন"
+      }
+    },
+    "enterCountry": {
+      "tabTitle": {
+        "en": "Enter your Country",
+        "bn": "আপনার দেশ লিখুন"
+      }
+    },
+    "enterProfession": {
+      "tabTitle": {
+        "en": "Enter your Profession",
+        "bn": "আপনার পেশা লিখুন"
+      }
+    },
+    "enterPhone": {
+      "tabTitle": {
+        "en": "Phone Number:*",
+        "bn": "ফোন নম্বর:*"
+      }
+    },
+    "enterEmail": {
+      "tabTitle": {
+        "en": "Enter your Email",
+        "bn": "আপনার ইমেইল লিখুন"
+      }
+    },
+    "enterUserName": {
+      "tabTitle": {
+        "en": "Enter your User Name",
+        "bn": "আপনার নাম লিখুন"
+      }
+    },
+    "enterDateOfB": {
+      "tabTitle": {
+        "en": "Enter your Date of Birth",
+        "bn": "আপনার জন্ম তারিখ লিখুন"
+      }
+    },
+    "selectIdType": {
+      "tabTitle": {
+        "en": "Select ID Type:*",
+        "bn": "আইডি টাইপ নির্বাচন করুন:*"
+      }
+    },
+    "nidNumber": {
+      "tabTitle": {
+        "en": "NID Number",
+        "bn": "এনআইডি নম্বর"
+      }
+    },
+    "passportNumber": {
+      "tabTitle": {
+        "en": "Passport Number",
+        "bn": "পাসপোর্ট নম্বর"
+      }
+    },
+    "birthCertificateNumber": {
+      "tabTitle": {
+        "en": "Birth Certificate Number",
+        "bn": "জন্ম সনদ নম্বর"
+      }
+    },
+    "alreadyAccount": {
+      "tabTitle": {
+        "en": "Already have an account?",
+        "bn": "ইতিমধ্যে একটি অ্যাকাউন্ট আছে?"
+      }
+    },
+    "registersButton": {
+      "tabTitle": {
+        "en": "Register",
+        "bn": "নিবন্ধন করুন"
+      }
+    },
+    "loginHere": {
+      "tabTitle": {
+        "en": "Login here",
+        "bn": "এখানে লগইন করুন"
+      }
+    }
+  },
+
+  "adminLogins": {
+    "admnins": {
+      "tabTitle": {
+        "en": "Administrative login",
+        "bn": "প্রশাসনিক লগইন"
+      }
+    },
+    "regemail": {
+      "tabTitle": {
+        "en": "Email",
+        "bn": "ইমেইল"
+      }
+    },
+
+    "enterEmail": {
+      "tabTitle": {
+        "en": "Enter your Email",
+        "bn": "আপনার ইমেইল লিখুন"
+      }
+    },
+
+    "enterPass": {
+      "tabTitle": {
+        "en": "Enter your Password",
+        "bn": "আপনার পাসওয়ার্ড লিখুন"
+      }
+    },
+
+
+
+    "adminTitle": {
+      "tabTitle": {
+        "en": "Grievance Redress System",
+        "bn": ""
+      }
+    },
+    "passwwords": {
+      "tabTitle": {
+        "en": "Password",
+        "bn": "পাসওয়ার্ড"
+      }
+    },
+    "loginButton": {
+      "tabTitle": {
+        "en": "Login",
+        "bn": "লগইন"
+      }
+    }
+  },
+
+  "GrievanceForm": {
+
+    "date": {
+      "en": "Grievance Submission Information",
+      "bn": "অভিযোগ জমাদানের তথ্য"
+    },
+
+
+    "toLabel": {
+      "en": "To,",
+      "bn": "বরাবর,"
+    },
+    "officerTitle": {
+      "en": "Commissioner of Taxation Appeal,",
+      "bn": "কর কমিশনার (আপিল),"
+    },
+    "officerLocation": {
+      "en": "Tax Appellate Region Chittagong,",
+      "bn": "কর আপিল অঞ্চল চট্টগ্রাম,"
+    },
+
+    "track": {
+      "en": "Tracking No.",
+      "bn": "ট্রাকিং নাম্বার"
+    },
+
+    "status": {
+      "en": "status",
+      "bn": "অবস্থা"
+    },
+
+    "subjectLabel": {
+      "en": "Subject:",
+      "bn": "বিষয়:"
+    },
+    "salutation": {
+      "en": "Mr./Mrs.,",
+      "bn": "জনাব/জনাবা,"
+    },
+    "faithfullyYours": {
+      "en": "Faithfully yours",
+      "bn": "বিশ্বস্ততার সাথে,"
+    },
+    "attachmentsLabel": {
+      "en": "Attachments:",
+      "bn": "সংযুক্তিসমূহ:"
+    },
+    "fileLabel": {
+      "en": "File:",
+      "bn": "ফাইল:"
+    },
+    "descriptionLabel": {
+      "en": "Description:",
+      "bn": "বর্ণনা:"
+    },
+    "mobileLabel": {
+      "en": "Mobile Number",
+      "bn": "মোবাইল নম্বর"
+    },
+
+    "formSubject": {
+      "en": "Subject of the grievance:*",
+      "bn": "অভিযোগের বিষয়:*"
+    },
+    "formType": {
+      "en": "Type of grievance:*",
+      "bn": "অভিযোগের ধরন:*"
+    },
+    "formDescription": {
+      "en": "Description of the grievance:*",
+      "bn": "অভিযোগের বিবরণ:*"
+    },
+    "formProofs": {
+      "en": "Grievance related proofs (if any):*",
+      "bn": "অভিযোগ সম্পর্কিত প্রমাণ (যদি থাকে):*"
+    }
+  },
+
+  "footer": {
+    "toLink": {
+      "en": "Important Links",
+      "bn": "গুরুত্বপূর্ণ লিঙ্ক"
+    },
+    "media": {
+      "en": "Social Media",
+      "bn": "সামাজিক যোগাযোগ"
+    },
+    "touch": {
+      "en": "Get in Touch",
+      "bn": "যোগাযোগ করুন"
+    }
+  },
+
+  "ButtonLang": {
+    "grievance": {
+      "en": "Add Grievance",
+      "bn": "অভিযোগ দাখিল"
+    },
+    "media": {
+      "en": "Social Media",
+      "bn": "সামাজিক যোগাযোগ"
+    },
+    "touch": {
+      "en": "Get in Touch",
+      "bn": "যোগাযোগ করুন"
+    }
+  }
+}
