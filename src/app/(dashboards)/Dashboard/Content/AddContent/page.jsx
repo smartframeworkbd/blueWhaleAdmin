@@ -9,7 +9,7 @@ import BreadCrumb from "@/components/BreadCrumb/BreadCrumb";
 import { Upload } from "antd";
 import { useAppDispatch } from "@/redux/Hook/Hook";
 import { setIsAddModalOpen } from "@/redux/Modal/ModalSlice";
-import { useAddContentMutation, useUploadImageMutation } from "@/redux/Feature/Admin/contentApi/contentApi";
+import { useAddContentMutation, useGetContentQuery, useUploadImageMutation } from "@/redux/Feature/Admin/contentApi/contentApi";
 import { LanguageContext } from "@/context/LanguageContext";
 
 const AddContent = () => {
@@ -26,6 +26,8 @@ const AddContent = () => {
       .replace(/\s+/g, '-')
       .replace(/[^\w\-]+/g, '');
   };
+
+  const {data:contentData,isSuccess:contentSuccess} = useGetContentQuery()
   const [addContent, { isLoading, isSuccess, isError, data: CEGdata , error: cError}] =
     useAddContentMutation();
   const [uploadImage] = useUploadImageMutation();
@@ -199,6 +201,18 @@ const AddContent = () => {
             name="buttonLink"
             label={translations[currentLanguage].buttonLink}
             placeholder={translations[currentLanguage].buttonLink}
+          />
+
+
+
+<ZSelect
+            name="status"
+            label={translations[currentLanguage].status}
+            options={[
+              { label: translations[currentLanguage].active, value: true },
+              { label: translations[currentLanguage].inactive, value: false },
+            ]}
+            placeholder={translations[currentLanguage].status}
           />
           <ZSelect
             name="status"
