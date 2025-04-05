@@ -121,6 +121,48 @@ const Dashboard = ({ view, toggle }) => {
       
       ],
     },
+    {
+      id: "product-category",
+      path: "",
+      icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+      labels: { en: "Product Category", bn: "Product Category" },
+      children: [
+        {
+          id: "create product",
+          path: "/Dashboard/product-category/create",
+          icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+          labels: { en: "create product", bn: "create product cate" },
+        },
+        {
+          id: "product category list",
+          path: "/Dashboard/product-category",
+          icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+          labels: { en: "Product category List", bn: "product category List" },
+        },
+      
+      ],
+    },
+    {
+      id: "testimonials",
+      path: "",
+      icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+      labels: { en: "testimonial ", bn: "testimonial" },
+      children: [
+        {
+          id: "create testimonial",
+          path: "/Dashboard/testimonial/create",
+          icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+          labels: { en: "create testimonial", bn: "create testimonial" },
+        },
+        {
+          id: "testimonial list",
+          path: "/Dashboard/testimonial",
+          icon: <HiReceiptTax className="h-5 w-5 text-white" />,
+          labels: { en: "testimonial List", bn: "testimonial List" },
+        },
+      
+      ],
+    },
 
     {
       id: "category",

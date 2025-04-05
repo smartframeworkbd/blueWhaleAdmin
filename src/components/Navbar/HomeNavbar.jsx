@@ -185,7 +185,7 @@ export function HomeNavbar() {
             <Link href={"/"}>
               <Typography className="cursor-pointer font-semibold hidden lg:block lg:text-2xl">
                 {currentLanguage === "en"
-                  ? "Grievance Redress System"
+                  ? "  Blue While Admin Panel"
                   : ""}
               </Typography>
             </Link>
